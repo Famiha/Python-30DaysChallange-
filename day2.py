@@ -102,9 +102,6 @@
 #         print("Sorry your gender isn't correct")
 # else:
 #     print("You're under age")
-
-# when is a number even?
-
-user_input = int(input("Enter an number :"))
-reverse = reversedint((user_input))
-print('reverse:')
+import random
+x = (1,9)
+print(rand.randint(x))
