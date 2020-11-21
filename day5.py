@@ -6,10 +6,10 @@
 # Needs water: True
 # Needs to be repotted: False
 
-# needs_water = True
-# print("Needs water: " + str(needs_water))
-# needs_to_be_repotted = False
-# print("Needs to be reported :" + str(needs_to_be_repotted))
+needs_water = True
+print("Needs water: " + str(needs_water))
+needs_to_be_repotted = False
+print("Needs to be reported :" + str(needs_to_be_repotted))
 
 #  can_juggle = True
 
@@ -20,11 +20,17 @@
 # print("I can't juggle.")
 # The right way is this : #
 
-can_juggle = False
+can_juggle = True
 
 if can_juggle:
     print("I can juggle!")
+else:
+    print("I can't juggle.")
 
-print("Hi I am coding!")
 
+date = int(input("Enter today's day numerically:"))
+if date<30:
+    print("Sorry, not a payday.")
+if date==30:
+    print("It's payday!")
 

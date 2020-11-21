@@ -39,3 +39,15 @@ print(x+int("10"))
 # print(f"Addition: {add}\n Sub: {sub}\n Mul: {mul}\n Div: {div}\n Rem: {rem}\n Exp{exp}\n Floor {floor}")
 
 # print('Hello this is cool "quote" ')
+
+
+x = 8 % 2
+
+if (x > 10):
+   print(1)
+elif (x > 5):
+   print(2)
+elif (x > 1):
+   print(3)
+else:
+   print(4) 
